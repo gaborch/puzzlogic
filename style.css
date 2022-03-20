@@ -1,0 +1,16 @@
+img{
+	height: 100%;
+	width: 100%;
+}
+.texto{
+	width: 50%;
+	height: 300px;
+	float: left;
+	background-color: #FF0;
+}
+.imagem{
+	width: 50%;
+	height: 600px;
+	float: left;
+	background-color: #F00;
+}

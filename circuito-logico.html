@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>cicuito-logico</title>
+<script src="script.js"></script>
+<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<div class="texto">
+	<h1>Circuito Lógico Teste</h1>
+	<a>Ligue ou Desligue os seguintes interruptores e utilize de seu 
+	conhecimento de lógica de modo que a energia consiga atingir 
+	a Lâmpada.</a>
+	<h2>Circuito 1</h2>
+	<datalist id="lista">
+		<option>Desligado</option>
+		<option>Ligado</option>
+	</datalist>
+	Interruptor 1: 
+	<input type="text" list="lista" id="caixa" placeholder="Interruptor 1">
+	<br>
+	Interruptor 2:
+	<input type="text" list="lista" id="caixa2" placeholder="Interruptor 2">
+	<br>
+	Interruptor 3:
+	<input type="text" list="lista" id="caixa3" placeholder="Interruptor 3">
+	<br>
+	Interruptor 4:
+	<input type="text" list="lista" id="caixa4" placeholder="Interruptor 4">
+	<br>
+	<input type="button" id="botão" onclick="funcao()" value="clique">
+</div>
+<div class="imagem">
+		<img src="circuitoDesenho.png" id="imagem">
+</div>
+</body>
+</html>
